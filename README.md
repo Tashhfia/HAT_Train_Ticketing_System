@@ -24,6 +24,7 @@ The View() method asks the user if they want to view:
 •	Status() of their ticket
 •	Edit() the information in their ticket
 •	Delete() their ticket
+
 Status() prompts the user for their ticket number and tells the user if they are in the confirmed list or waiting list.
 Edit() prompts the user for ticket number and retrieves their details. It then asks the user if they want to change their:
 1.	Name    or

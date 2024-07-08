@@ -21,15 +21,16 @@ It then adds the passenger to the waiting list using the enqueue() method.
 
 ## View_ticket class: 
 The View() method asks the user if they want to view:
-•	Status() of their ticket
-•	Edit() the information in their ticket
-•	Delete() their ticket
+  •	Status() of their ticket
+  •	Edit() the information in their ticket
+  •	Delete() their ticket
 
 Status() prompts the user for their ticket number and tells the user if they are in the confirmed list or waiting list.
 Edit() prompts the user for ticket number and retrieves their details. It then asks the user if they want to change their:
-1.	Name    or
-2.	IC number   or
-3.	Phone number
+  1.	Name    or
+  2.	IC number   or
+  3.	Phone number
+   
 Delete() prompts the user for their ticket number and then their seat number. It then proceeds to remove the passenger from the confirmed list and dequeues the first passenger from the waiting list to the confirmed list.
 
 ## Date_list class:
